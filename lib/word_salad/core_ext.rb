@@ -1,5 +1,4 @@
-class Fixnum
-
+class Integer
   # Returns +num+ random words from the dictionary.
   def words
     dict = WordSalad.dictionary
@@ -42,6 +41,4 @@ class Fixnum
   def paragraph(psize=5, ssize=10)
     1.paragraphs(psize, ssize).first
   end
-
 end
-
