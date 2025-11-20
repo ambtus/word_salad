@@ -1,14 +1,20 @@
-= Word Salad
+# Word Salad
 
-== DESCRIPTION:
+## DESCRIPTION:
 
-Word Salad is a very simple Ruby library for generating random strings
-of English words based on a list of basic english words. Words retrieved
-from http://www.langmaker.com/wordlist/basiclex.htm
+Word Salad is a very simple Ruby library for generating random strings of English words based on a list of basic english words. It adds six methods to the <tt>Integer</tt> class.
 
-== SYNOPSIS:
 
-WordSalad adds six methods to the <tt>Fixnum</tt> class.
+Words originally retrieved from http://www.langmaker.com/wordlist/basiclex.htm
+
+
+## INSTALL:
+
+  gem install word_salad
+
+## USAGE:
+
+  <code>require 'word_salad'</code>
 
     1.word ==> "quite"
     5.words ==> ["stone", "bent", "kick", "name", "event"]
@@ -17,16 +23,13 @@ WordSalad adds six methods to the <tt>Fixnum</tt> class.
     1.paragraph(5, 5) => "Belief same minute market control. Stamp sand stocking ant angle. Grip form distribution up. Leaf blue committee camera test. Event detail addition point trousers be."
     2.paragraphs(2, 3) ==> ["Disgust idea bucket. Branch sail right.", "Cotton root discussion. Grey thumb.", "Lift minute pipe cake. Any scale.", "Size take gun. Not bell smash out."]
 
-== INSTALL:
 
-    sudo gem install word_salad
-
-== LICENSE:
+## LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008 Alex Vollmer
-Copyright (c) 2011 Alice Brown
+Copyright (c) 2008 Alex Vollmer\
+Copyright (c) 2011, 2025 Alice Brown
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

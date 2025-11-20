@@ -11,3 +11,8 @@
 * fixed bugs
 **  EOFError: end of file reached
 **  NoMethodError: undefined method `words' for 2.6187173419804153:Float
+
+=== 2.1.0 / 2025-11-20
+
+* switched to Integer
+* switched to rspec
